@@ -62,10 +62,9 @@ const Sidebar = () => {
                         <DropdownMenuSeparator />
                         {sidebarMediaLinks.map((medialink) => {
                             return (
-                                <DropdownMenuItem>
+                                <DropdownMenuItem key={medialink.label}>
                                     <Link
                                         href={medialink.route}
-                                        key={medialink.label}
                                         className='flex gap-4 items-center p-4 rounded-lg justify-end'
                                     >
                                         {medialink.label}
