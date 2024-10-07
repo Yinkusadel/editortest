@@ -49,10 +49,9 @@ const Homecard = () => {
                 {sidebarLinks.map((link) => {
 
                     return (
-                        <div>
+                        <div key={link.label}>
                             <Link
                                 href={link.route}
-                                key={link.label}
                                 className='flex gap-4 items-center p-4 rounded-lg'
                             >
                                 <Image
