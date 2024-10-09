@@ -13,7 +13,7 @@ import UserAccordion from './Useraccordion'
 
 const Userleftpage = () => {
     return (
-        <div className='w-96 flex flex-col items-center p-4 mx-4 max-[800px]:w-full bg-white'>
+        <div className='w-96 flex flex-col items-center p-4 mx-4 max-[800px]:w-full bg-white max-[800px]:mx-0 max-[800px]:px-0'>
             {/* user avavtar row */}
             <div className='flex justify-between w-80'>
                 <Link href="/" className="flex items-center gap-1">
