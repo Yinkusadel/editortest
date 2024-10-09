@@ -3,14 +3,14 @@
 import {
     ColumnDef,
     flexRender,
-    SortingState,
     getCoreRowModel,
-    getSortedRowModel,
     getPaginationRowModel,
+    getSortedRowModel,
+    SortingState,
     useReactTable,
-} from "@tanstack/react-table"
+} from "@tanstack/react-table";
 
-import { ChevronLeft, ChevronRight, ChevronsRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 import {
     Table,
@@ -19,10 +19,9 @@ import {
     TableHead,
     TableHeader,
     TableRow,
-} from "@/components/ui/table"
+} from "@/components/ui/table";
 
-import { Button } from "@/components/ui/button"
-import { useState } from "react";
+import { Button } from "@/components/ui/button";
 import {
     Select,
     SelectContent,
@@ -30,6 +29,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select";
+import { useState } from "react";
 
 
 interface DataTableProps<TData, TValue> {

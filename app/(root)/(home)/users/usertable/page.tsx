@@ -4,7 +4,7 @@ import { DataTable } from './datatable';
 const dummyUsers: User[] = [
     {
         id: '1',
-        plan: 'Basic',
+        price: '',
         status: 'pending',
         image: 'https://example.com/image1.jpg',
         createdAt: '2023-10-01T12:00:00Z',

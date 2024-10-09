@@ -19,7 +19,7 @@ import {
 export type User = {
     id: string
     // product: string
-    plan: String
+    price: string
     status: "pending" | "processing" | "success" | "failed"
     image: string
     createdAt: string
@@ -62,7 +62,7 @@ export const columns: ColumnDef<User>[] = [
         },
     },
     {
-        accessorKey: "plan",
+        accessorKey: "price",
         header: ({ column }) => {
             return (
                 <div className="flex  items-center"
