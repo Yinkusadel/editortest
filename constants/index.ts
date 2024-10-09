@@ -1,7 +1,7 @@
 export const sidebarLinks = [
     {
         label: 'Like',
-        route: '/',
+        route: '/users',
         imgUrl: '/icons/like.svg',
         tooltip: "Add reaction"
     },
@@ -33,5 +33,48 @@ export const sidebarMediaLinks = [
     {
         label: 'Reddit',
         route: '/',
+    },
+]
+
+
+export const useroverviewcontent = [
+    {
+        label: 'spent',
+        amount: '$0.00',
+    },
+    {
+        label: 'joined',
+        amount: 'a minute ago',
+    },
+    {
+        label: 'mar',
+        amount: '$0.00',
+    },
+]
+
+export const userpublicappscontent = [
+    {
+        imgUrl: '/icons/save.svg',
+        label: 'j',
+    },
+    {
+        imgUrl: '/icons/save.svg',
+        label: 'k',
+    },
+    {
+        imgUrl: '/icons/save.svg',
+        label: 'l',
+    },
+    {
+        imgUrl: '/icons/save.svg',
+        label: 'l',
+    },
+    {
+        imgUrl: '/icons/save.svg',
+        label: 'l',
+    },
+    {
+        imgUrl: '/icons/save.svg',
+        label: 'l',
     },
 ]
